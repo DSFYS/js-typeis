@@ -10,5 +10,6 @@ function objectType(parameter){
     if(Array.isArray(parameter)==true) return "array"
     if(parameter instanceof RegExp) return "RegExp"
     if(parameter instanceof Date)return "Date"
+    return "object"
 }
 export {typeis}
